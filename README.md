@@ -1,5 +1,7 @@
 # MyProject
-1. 缓存    DiskLruCache    Java实现基于LRU的磁盘缓存: https://github.com/JakeWharton/DiskLruCache
+1. 缓存  
+DiskLruCache  Java实现基于LRU的磁盘缓存: https://github.com/JakeWharton/DiskLruCache
+
 2.图片加载
 Android Universal Image Loader  一个强大的加载，缓存，展示图片的库 https://github.com/nostra13/Android-Universal-Image-Loader
 Picasso 一个强大的图片下载与缓存的库 https://github.com/square/picasso
