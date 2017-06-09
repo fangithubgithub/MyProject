@@ -122,3 +122,38 @@ Stetho  调试Android应用的桥梁，使得可以利用Chrome开发者工具�
 LeakCanary  内存泄漏检测工具   https://github.com/square/leakcanary
 
 ACRA  Android应用程序崩溃报告  https://github.com/ACRA/acra
+
+
+
+/**
+*数据库查看工具
+*/
+添加依赖：
+    在你的build.gradle添加如下代码：
+         1 debugCompile 'com.amitshekhar.android:debug-db:1.0.0' 
+    ok，至此你不需要任何其他的代码。
+
+使用方式：    
+    1 >> 不填加任何代码，直接在 Debug‘app’ 下运行程序，要注意查看logcat，会有这么一行：
+         1 D/DebugDB: Open http://xxx.xxx.xxx.xxx:8080 
+        点击后在网页上打开地址链接。
+
+    2 >> 在项目的文件中添加如下代码：
+         1 DebugDB.getAddressLog(); 
+    然后在 Run‘app’ 下运行程序，要注意查看logcat，会有这么一行：
+        1 D/DebugDB: Open http://xxx.xxx.xxx.xxx:8080
+
+　　点击后在网页上打开地址链接。
+注意：
+    1 >> 要使用除8080之外的其他端口。在buildTypes中的build.gradle文件中，进行以下更改：
+
+      1 debug {
+      2      resValue（ “ string ” ， “ PORT_NUMBER ” ， “ 8081 ” ）
+      3       }
+      
+    2 >> 使用Android设备测试App时：
+        Android手机和电脑应连接到同一网络（Wifi或LAN）。
+
+    3 >> 使用模拟器测试App时:
+        Android默认模拟器：运行adb forward tcp:8080 tcp:8080并打开http：// localhost：8080。
+        Genymotion Emulator：从配置虚拟设备启用网桥（在genymotion中可用的选项）。
