@@ -140,6 +140,46 @@ ACRA  Android应用程序崩溃报告  https://github.com/ACRA/acra
 * https://github.com/MissMyDearBear/Diary
 */
 
+
+/**
+* DiyCode 社区的第三方 Android 客户端
+* https://github.com/plusend/DiyCode
+* https://github.com/GcsSloop/diycode
+*/
+
+/**
+* 单张头像拍照，选择，查看，保存
+* https://github.com/mocn26169/Avatar
+*/
+
+
+/**
+* 图片选择/拍照->裁剪->压缩 整个流程的操作已经串起到下面的库中
+* 对ucrop的封装工具类,让其使用更加快捷
+* https://github.com/glassLake/CropUtils
+*/
+
+
+/**
+* StatusBarUtil 状态栏工具类（实现沉浸式状态栏/变色状态栏）
+* https://github.com/laobie/StatusBarUtil
+*/
+
+
+/**
+* 一键上传应用到fir.im插件
+* https://github.com/FIRHQ/FIR_Plugin_Android
+*/
+
+/**
+* UCDLive SDK，包含采集、预览、编码、推流、播放等模块。使用H.264&AAC硬编，支持美颜(磨皮&美白&红润)、秒开、网络自适应、累积延时消除、自定义
+* GPU&CPU滤镜、贴纸、混音、静音等功能。
+* https://github.com/umdk/UCDLive_Android
+*/
+
+
+
+
 /**
 *数据库查看工具
 */
