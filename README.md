@@ -123,9 +123,21 @@ LeakCanary  内存泄漏检测工具   https://github.com/square/leakcanary
 
 ACRA  Android应用程序崩溃报告  https://github.com/ACRA/acra
 
+
+/**
+*常用功能
+* https://github.com/Blankj/AndroidUtilCode
+*/
+
+/**  
+*一个整合了大量主流开源项目的 Android Mvp 快速搭建框架
+*   https://github.com/JessYanCoding/MVPArms
+*/
+
+
 /**
 *一个基于MVP+retrofit+rxJava+lambda的日记为主项目
-*      https://github.com/MissMyDearBear/Diary
+* https://github.com/MissMyDearBear/Diary
 */
 
 /**
