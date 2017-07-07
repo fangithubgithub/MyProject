@@ -175,8 +175,20 @@ ACRA  Android应用程序崩溃报告  https://github.com/ACRA/acra
 * UCDLive SDK，包含采集、预览、编码、推流、播放等模块。使用H.264&AAC硬编，支持美颜(磨皮&美白&红润)、秒开、网络自适应、累积延时消除、自定义
 * GPU&CPU滤镜、贴纸、混音、静音等功能。
 * https://github.com/umdk/UCDLive_Android
+* UCDMediaPlayer 是一个适用于 Android 平台的音视频播放器 SDK，可高度定制化和二次开发，为开发者提供了简单、快捷的接口，支持多种播放协议(rtmp、
+* hls、http-flv)和播放格式，包含软硬解切换、累积延时消除等技术，帮助开发者快速完成播放器应用开发。
+* https://github.com/umdk/UCDMediaPlayer_Android
 */
 
+
+一个Android的基础项目，里面会对项目经常用到的如BaseActivity，BaseFragment，网络请求等进行一些基本封装
+https://github.com/AlarmZeng/BaseProject
+
+android－XListView的修改版,下拉刷新上拉加载增加仿IOS的等待圈,和IOS一样，一张图片实现
+https://github.com/limxing/XListView
+
+利用百度地图快速实现支付宝的“到位”功能。基于LBS精确获取地理位置的周边数据，地图动态显示网络图标 支持多点聚合与分离，点击图标动态放大选中效果，移动、放大、缩小地图后重新更新数据，聚合图标点击动画展开，根据实际距离调整地图层级为屏幕大小 ，分页刷新
+https://github.com/CarGuo/LbsMap
 
 
 
